@@ -1,0 +1,18 @@
+disabled_rules:
+  - trailing_whitespace
+  - orphaned_doc_comment
+  - nesting
+
+opt_in_rules:
+  - let_var_whitespace
+  - force_unwrapping
+
+included:
+  - MOZI
+excluded:
+  # AppDelegate, SceneDelegate file 무시
+  - MOZI/Application/AppDelegate.swift
+  - MOZI/Application/SceneDelegate.swift
+
+force_cast: error
+force_unwrapping: error
