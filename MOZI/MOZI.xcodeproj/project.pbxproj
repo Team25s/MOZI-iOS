@@ -15,6 +15,7 @@
 		4F1ADB0628378C5E00969E1D /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1ADB0528378C5E00969E1D /* ApplicationCoordinator.swift */; };
 		4F23198F283E218500234D59 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F23198E283E218500234D59 /* ImageLiteral.swift */; };
 		4F231991283E3B9800234D59 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F231990283E3B9800234D59 /* TabBarCoordinator.swift */; };
+		4F231993283E3D2200234D59 /* TabBarItemLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F231992283E3D2200234D59 /* TabBarItemLiteral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4F1ADB0528378C5E00969E1D /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		4F23198E283E218500234D59 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
 		4F231990283E3B9800234D59 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		4F231992283E3D2200234D59 /* TabBarItemLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemLiteral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				4F23198E283E218500234D59 /* ImageLiteral.swift */,
+				4F231992283E3D2200234D59 /* TabBarItemLiteral.swift */,
 			);
 			path = Literal;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				4F1ADB0428378BF300969E1D /* Coordinator.swift in Sources */,
 				4F1ADAE82837873200969E1D /* AppDelegate.swift in Sources */,
 				4F1ADAEA2837873200969E1D /* SceneDelegate.swift in Sources */,
+				4F231993283E3D2200234D59 /* TabBarItemLiteral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
