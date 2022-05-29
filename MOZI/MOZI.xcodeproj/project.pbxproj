@@ -14,6 +14,17 @@
 		4F1ADB0428378BF300969E1D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1ADB0328378BF300969E1D /* Coordinator.swift */; };
 		4F1ADB0628378C5E00969E1D /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1ADB0528378C5E00969E1D /* ApplicationCoordinator.swift */; };
 		4F23198F283E218500234D59 /* ImageLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F23198E283E218500234D59 /* ImageLiteral.swift */; };
+		4F231991283E3B9800234D59 /* DefaultTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F231990283E3B9800234D59 /* DefaultTabBarCoordinator.swift */; };
+		4F231993283E3D2200234D59 /* TabBarItemLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F231992283E3D2200234D59 /* TabBarItemLiteral.swift */; };
+		4F231998283E5F2100234D59 /* CoordinatorFinishDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F231997283E5F2100234D59 /* CoordinatorFinishDelegate.swift */; };
+		4F2319A4283E75E300234D59 /* DefaultHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319A3283E75E300234D59 /* DefaultHomeCoordinator.swift */; };
+		4F2319A6283E75F400234D59 /* DefaultFriendCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319A5283E75F400234D59 /* DefaultFriendCoordinator.swift */; };
+		4F2319A8283E760A00234D59 /* DefaultCommunityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319A7283E760A00234D59 /* DefaultCommunityCoordinator.swift */; };
+		4F2319AA283E761400234D59 /* DefaultSettingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319A9283E761400234D59 /* DefaultSettingCoordinator.swift */; };
+		4F2319AD283EA8B700234D59 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319AC283EA8B700234D59 /* HomeCoordinator.swift */; };
+		4F2319B0283EA8C500234D59 /* FriendCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319AF283EA8C500234D59 /* FriendCoordinator.swift */; };
+		4F2319B8283EA91000234D59 /* CommunityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */; };
+		4F2319BA283EA92100234D59 /* SettingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319B9283EA92100234D59 /* SettingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		4F1ADB0328378BF300969E1D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		4F1ADB0528378C5E00969E1D /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		4F23198E283E218500234D59 /* ImageLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLiteral.swift; sourceTree = "<group>"; };
+		4F231990283E3B9800234D59 /* DefaultTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTabBarCoordinator.swift; sourceTree = "<group>"; };
+		4F231992283E3D2200234D59 /* TabBarItemLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemLiteral.swift; sourceTree = "<group>"; };
+		4F231997283E5F2100234D59 /* CoordinatorFinishDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFinishDelegate.swift; sourceTree = "<group>"; };
+		4F2319A3283E75E300234D59 /* DefaultHomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHomeCoordinator.swift; sourceTree = "<group>"; };
+		4F2319A5283E75F400234D59 /* DefaultFriendCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultFriendCoordinator.swift; sourceTree = "<group>"; };
+		4F2319A7283E760A00234D59 /* DefaultCommunityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCommunityCoordinator.swift; sourceTree = "<group>"; };
+		4F2319A9283E761400234D59 /* DefaultSettingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSettingCoordinator.swift; sourceTree = "<group>"; };
+		4F2319AC283EA8B700234D59 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		4F2319AF283EA8C500234D59 /* FriendCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCoordinator.swift; sourceTree = "<group>"; };
+		4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCoordinator.swift; sourceTree = "<group>"; };
+		4F2319B9283EA92100234D59 /* SettingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				4F1ADB0028378BC300969E1D /* Common */,
+				4F231994283E5AE000234D59 /* HomeScene */,
+				4F23199D283E754300234D59 /* FriendScene */,
+				4F23199E283E755600234D59 /* CommunityScene */,
+				4F23199F283E757200234D59 /* SettingScene */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -120,8 +146,10 @@
 		4F1ADB0128378BD800969E1D /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				4F231996283E5F0700234D59 /* Delegate */,
 				4F1ADB0228378BE400969E1D /* Protocol */,
 				4F1ADB0528378C5E00969E1D /* ApplicationCoordinator.swift */,
+				4F231990283E3B9800234D59 /* DefaultTabBarCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -138,8 +166,117 @@
 			isa = PBXGroup;
 			children = (
 				4F23198E283E218500234D59 /* ImageLiteral.swift */,
+				4F231992283E3D2200234D59 /* TabBarItemLiteral.swift */,
 			);
 			path = Literal;
+			sourceTree = "<group>";
+		};
+		4F231994283E5AE000234D59 /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F23199C283E752700234D59 /* Coordinator */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		4F231996283E5F0700234D59 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4F231997283E5F2100234D59 /* CoordinatorFinishDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4F23199C283E752700234D59 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319AB283EA8A900234D59 /* Protocol */,
+				4F2319A3283E75E300234D59 /* DefaultHomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4F23199D283E754300234D59 /* FriendScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319A0283E759B00234D59 /* Coordinator */,
+			);
+			path = FriendScene;
+			sourceTree = "<group>";
+		};
+		4F23199E283E755600234D59 /* CommunityScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319A1283E75A200234D59 /* Coordinator */,
+			);
+			path = CommunityScene;
+			sourceTree = "<group>";
+		};
+		4F23199F283E757200234D59 /* SettingScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319A2283E75A500234D59 /* Coordinator */,
+			);
+			path = SettingScene;
+			sourceTree = "<group>";
+		};
+		4F2319A0283E759B00234D59 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319AE283EA8BB00234D59 /* Protocol */,
+				4F2319A5283E75F400234D59 /* DefaultFriendCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4F2319A1283E75A200234D59 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319B1283EA8C900234D59 /* Protocol */,
+				4F2319A7283E760A00234D59 /* DefaultCommunityCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4F2319A2283E75A500234D59 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319B6283EA8E700234D59 /* Protocol */,
+				4F2319A9283E761400234D59 /* DefaultSettingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4F2319AB283EA8A900234D59 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319AC283EA8B700234D59 /* HomeCoordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4F2319AE283EA8BB00234D59 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319AF283EA8C500234D59 /* FriendCoordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4F2319B1283EA8C900234D59 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4F2319B6283EA8E700234D59 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4F2319B9283EA92100234D59 /* SettingCoordinator.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +373,20 @@
 			files = (
 				4F1ADB0628378C5E00969E1D /* ApplicationCoordinator.swift in Sources */,
 				4F23198F283E218500234D59 /* ImageLiteral.swift in Sources */,
+				4F231998283E5F2100234D59 /* CoordinatorFinishDelegate.swift in Sources */,
+				4F231991283E3B9800234D59 /* DefaultTabBarCoordinator.swift in Sources */,
+				4F2319AA283E761400234D59 /* DefaultSettingCoordinator.swift in Sources */,
+				4F2319AD283EA8B700234D59 /* HomeCoordinator.swift in Sources */,
 				4F1ADB0428378BF300969E1D /* Coordinator.swift in Sources */,
+				4F2319A4283E75E300234D59 /* DefaultHomeCoordinator.swift in Sources */,
+				4F2319BA283EA92100234D59 /* SettingCoordinator.swift in Sources */,
+				4F2319A6283E75F400234D59 /* DefaultFriendCoordinator.swift in Sources */,
 				4F1ADAE82837873200969E1D /* AppDelegate.swift in Sources */,
 				4F1ADAEA2837873200969E1D /* SceneDelegate.swift in Sources */,
+				4F2319B0283EA8C500234D59 /* FriendCoordinator.swift in Sources */,
+				4F2319A8283E760A00234D59 /* DefaultCommunityCoordinator.swift in Sources */,
+				4F2319B8283EA91000234D59 /* CommunityCoordinator.swift in Sources */,
+				4F231993283E3D2200234D59 /* TabBarItemLiteral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
