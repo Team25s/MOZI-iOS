@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40CBD6262847E52E00B90BE9 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CBD6252847E52E00B90BE9 /* ColorAssets.xcassets */; };
+		40CBD6292847E87100B90BE9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CBD6282847E87100B90BE9 /* UIColor+Extension.swift */; };
+		40CBD62B2847E9E100B90BE9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CBD62A2847E9E100B90BE9 /* Color+Extension.swift */; };
 		4F1ADAE82837873200969E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1ADAE72837873200969E1D /* AppDelegate.swift */; };
 		4F1ADAEA2837873200969E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1ADAE92837873200969E1D /* SceneDelegate.swift */; };
 		4F1ADAF12837873600969E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1ADAF02837873600969E1D /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40CBD6252847E52E00B90BE9 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		40CBD6282847E87100B90BE9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		40CBD62A2847E9E100B90BE9 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		4F1ADAE42837873200969E1D /* MOZI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOZI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1ADAE72837873200969E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1ADAE92837873200969E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40CBD6272847E86600B90BE9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				40CBD6282847E87100B90BE9 /* UIColor+Extension.swift */,
+				40CBD62A2847E9E100B90BE9 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		4F1ADADB2837873200969E1D = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +117,7 @@
 			children = (
 				4F1ADAFD28378B4300969E1D /* Storyboard */,
 				4F1ADAF02837873600969E1D /* Assets.xcassets */,
+				40CBD6252847E52E00B90BE9 /* ColorAssets.xcassets */,
 				4F1ADAF52837873600969E1D /* Info.plist */,
 			);
 			path = Resource;
@@ -118,6 +134,7 @@
 		4F1ADAFE28378B8F00969E1D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				40CBD6272847E86600B90BE9 /* Extension */,
 				4F23198B283E215500234D59 /* Literal */,
 			);
 			path = Util;
@@ -339,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1ADAF42837873600969E1D /* LaunchScreen.storyboard in Resources */,
+				40CBD6262847E52E00B90BE9 /* ColorAssets.xcassets in Resources */,
 				4F1ADAF12837873600969E1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,9 +390,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1ADB0628378C5E00969E1D /* ApplicationCoordinator.swift in Sources */,
+				40CBD62B2847E9E100B90BE9 /* Color+Extension.swift in Sources */,
 				4F23198F283E218500234D59 /* ImageLiteral.swift in Sources */,
 				4F231998283E5F2100234D59 /* CoordinatorFinishDelegate.swift in Sources */,
 				4F231991283E3B9800234D59 /* DefaultTabBarCoordinator.swift in Sources */,
+				40CBD6292847E87100B90BE9 /* UIColor+Extension.swift in Sources */,
 				4F2319AA283E761400234D59 /* DefaultSettingCoordinator.swift in Sources */,
 				4F2319AD283EA8B700234D59 /* HomeCoordinator.swift in Sources */,
 				4F1ADB0428378BF300969E1D /* Coordinator.swift in Sources */,
