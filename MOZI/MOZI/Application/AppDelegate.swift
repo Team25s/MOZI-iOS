@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "backIcon")?.withRenderingMode(.automatic).withAlignmentRectInsets(UIEdgeInsets(top: 0, left: -5, bottom: -3, right: 0))
-        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "backIcon")?.withRenderingMode(.automatic).withAlignmentRectInsets(UIEdgeInsets(top: 0, left: -5, bottom: -3, right: 0))
+        UINavigationBar.appearance().backIndicatorImage = .load(named: .backIcon).withAlignmentRectInsets(UIEdgeInsets(top: 0, left: -5, bottom: -3, right: 0))
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = .load(named: .backIcon).withAlignmentRectInsets(UIEdgeInsets(top: 0, left: -5, bottom: -3, right: 0))
         
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: .normal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: UIControl.State.highlighted)

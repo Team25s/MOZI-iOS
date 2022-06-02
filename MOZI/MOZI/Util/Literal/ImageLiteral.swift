@@ -17,6 +17,25 @@ enum ImageLiteral: String {
     case iconFriendSelected = "icon_friend_selected"
     case iconHomeSelected = "icon_home_selected"
     case iconSettingSelected = "icon_setting_selected"
+    
+    case addImageIcon = "addImageIcon"
+    case addPostIcon = "addPostIcon"
+    case bellOffIcon = "bellOffIcon"
+    case bellOnIcon = "bellOnIcon"
+    case checkOffIcon = "checkOffIcon"
+    case checkOnIcon = "checkOnIcon"
+    case deleteIcon = "deleteIcon"
+    case editIcon = "editIcon"
+    case searchIcon = "searchIcon"
+    case startOffIcon = "startOffIcon"
+    case startOnIcon = "startOnIcon"
+    
+    case addFriendIcon = "addFriendIcon"
+    case backIcon = "backIcon"
+    case closeIcon = "closeIcon"
+    case profileEditIcon = "profileEditIcon"
+    case searchFriendIcon = "searchFriendIcon"
+    case sortFriendIcon = "sortFriendIcon"
 }
 
 extension UIImage {
