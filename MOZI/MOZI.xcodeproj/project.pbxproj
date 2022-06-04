@@ -28,6 +28,8 @@
 		4F2319B0283EA8C500234D59 /* FriendCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319AF283EA8C500234D59 /* FriendCoordinator.swift */; };
 		4F2319B8283EA91000234D59 /* CommunityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */; };
 		4F2319BA283EA92100234D59 /* SettingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319B9283EA92100234D59 /* SettingCoordinator.swift */; };
+		4FEBECC3284A78EC0034FBAB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBECC2284A78EC0034FBAB /* UIFont+Extension.swift */; };
+		4FEBECCB284A83C60034FBAB /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBECCA284A83C60034FBAB /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		4F2319AF283EA8C500234D59 /* FriendCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCoordinator.swift; sourceTree = "<group>"; };
 		4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCoordinator.swift; sourceTree = "<group>"; };
 		4F2319B9283EA92100234D59 /* SettingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCoordinator.swift; sourceTree = "<group>"; };
+		4FEBECC2284A78EC0034FBAB /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		4FEBECCA284A83C60034FBAB /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			children = (
 				40CBD6282847E87100B90BE9 /* UIColor+Extension.swift */,
 				40CBD62A2847E9E100B90BE9 /* Color+Extension.swift */,
+				4FEBECC2284A78EC0034FBAB /* UIFont+Extension.swift */,
+				4FEBECCA284A83C60034FBAB /* Font+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -390,10 +396,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1ADB0628378C5E00969E1D /* ApplicationCoordinator.swift in Sources */,
+				4FEBECC3284A78EC0034FBAB /* UIFont+Extension.swift in Sources */,
 				40CBD62B2847E9E100B90BE9 /* Color+Extension.swift in Sources */,
 				4F23198F283E218500234D59 /* ImageLiteral.swift in Sources */,
 				4F231998283E5F2100234D59 /* CoordinatorFinishDelegate.swift in Sources */,
 				4F231991283E3B9800234D59 /* DefaultTabBarCoordinator.swift in Sources */,
+				4FEBECCB284A83C60034FBAB /* Font+Extension.swift in Sources */,
 				40CBD6292847E87100B90BE9 /* UIColor+Extension.swift in Sources */,
 				4F2319AA283E761400234D59 /* DefaultSettingCoordinator.swift in Sources */,
 				4F2319AD283EA8B700234D59 /* HomeCoordinator.swift in Sources */,
