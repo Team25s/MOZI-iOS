@@ -63,8 +63,8 @@ struct UserInfoInputView: View {
     
     @State private var userIdentifier: String
     @State private var userPassword: String
-    @State var userIdentifierTextFieldOnEditing: Bool
-    @State var userPasswordTextFeildOnEditing: Bool
+    @State private var userIdentifierTextFieldOnEditing: Bool
+    @State private var userPasswordTextFeildOnEditing: Bool
     
     init() {
         self.userIdentifier = ""
