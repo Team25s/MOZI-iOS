@@ -9,7 +9,7 @@ import SwiftUI
 import UIKit
 
 extension Font {
-    init(UIFont font: UIFont) {
+    init(uiFont font: UIFont) {
         self = Font(font as CTFont)
     }
 }
