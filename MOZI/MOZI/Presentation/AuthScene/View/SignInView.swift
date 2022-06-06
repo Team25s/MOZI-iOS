@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  SignInView.swift
 //  MOZI
 //
 //  Created by Noah on 2022/06/05.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginView: View {
+struct SignInView: View {
     var body: some View {
         ZStack {
             Color.moziPrimary
@@ -189,8 +189,8 @@ struct FindUserInfoButtonView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        SignInView()
     }
 }

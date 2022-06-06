@@ -29,7 +29,7 @@
 		4F2319B8283EA91000234D59 /* CommunityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */; };
 		4F2319BA283EA92100234D59 /* SettingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2319B9283EA92100234D59 /* SettingCoordinator.swift */; };
 		4F770CBF284CE7F500DED57C /* MoziLoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F770CBE284CE7F500DED57C /* MoziLoginTextField.swift */; };
-		4F770CC1284CE89400DED57C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F770CC0284CE89400DED57C /* LoginView.swift */; };
+		4F770CC1284CE89400DED57C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F770CC0284CE89400DED57C /* SignInView.swift */; };
 		4F770CC3284CE97F00DED57C /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F770CC2284CE97F00DED57C /* View+Extension.swift */; };
 		4FEBECC3284A78EC0034FBAB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBECC2284A78EC0034FBAB /* UIFont+Extension.swift */; };
 		4FEBECCB284A83C60034FBAB /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBECCA284A83C60034FBAB /* Font+Extension.swift */; };
@@ -60,7 +60,7 @@
 		4F2319B7283EA91000234D59 /* CommunityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCoordinator.swift; sourceTree = "<group>"; };
 		4F2319B9283EA92100234D59 /* SettingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCoordinator.swift; sourceTree = "<group>"; };
 		4F770CBE284CE7F500DED57C /* MoziLoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoziLoginTextField.swift; sourceTree = "<group>"; };
-		4F770CC0284CE89400DED57C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4F770CC0284CE89400DED57C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		4F770CC2284CE97F00DED57C /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		4FEBECC2284A78EC0034FBAB /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		4FEBECCA284A83C60034FBAB /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
@@ -322,7 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				4F770CBD284CE7DA00DED57C /* Component */,
-				4F770CC0284CE89400DED57C /* LoginView.swift */,
+				4F770CC0284CE89400DED57C /* SignInView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -436,7 +436,7 @@
 				4F231991283E3B9800234D59 /* DefaultTabBarCoordinator.swift in Sources */,
 				4FEBECCB284A83C60034FBAB /* Font+Extension.swift in Sources */,
 				40CBD6292847E87100B90BE9 /* UIColor+Extension.swift in Sources */,
-				4F770CC1284CE89400DED57C /* LoginView.swift in Sources */,
+				4F770CC1284CE89400DED57C /* SignInView.swift in Sources */,
 				4F770CBF284CE7F500DED57C /* MoziLoginTextField.swift in Sources */,
 				4F2319AA283E761400234D59 /* DefaultSettingCoordinator.swift in Sources */,
 				4F2319AD283EA8B700234D59 /* HomeCoordinator.swift in Sources */,
