@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MoziLoginTextFieldStyle: TextFieldStyle {
-    
     @Binding var onEditing: Bool
     
     // swiftlint:disable:next identifier_name
