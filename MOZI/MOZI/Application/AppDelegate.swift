@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func setupNavigationBar() {
         UINavigationBar.appearance().isTranslucent = false
-        UINavigationBar.appearance().barTintColor = .primary
-        UINavigationBar.appearance().backgroundColor = .primary
+        UINavigationBar.appearance().barTintColor = .moziPrimary
+        UINavigationBar.appearance().backgroundColor = .moziPrimary
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().tintColor = .white
