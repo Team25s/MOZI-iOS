@@ -60,7 +60,6 @@ struct InputFrameView: View {
 }
 
 struct UserInfoInputView: View {
-    
     @State private var userIdentifier: String
     @State private var userPassword: String
     @State private var userIdentifierTextFieldOnEditing: Bool
@@ -95,9 +94,7 @@ struct UserInfoInputView: View {
                 .disableAutocorrection(true)
                 
                 Text("유효하지 않은 아이디입니다.")
-                    .font(
-                        .init(uiFont: .appleSDGothicNeoLight(ofSize: 12))
-                    )
+                    .font(.init(uiFont: .appleSDGothicNeoLight(ofSize: 12)))
                     .foregroundColor(.red)
                     .padding(EdgeInsets(top: 0,
                                         leading: 0,
@@ -105,9 +102,7 @@ struct UserInfoInputView: View {
                                         trailing: 0))
                 
                 Text("비밀번호")
-                    .font(
-                        .init(uiFont: .appleSDGothicNeoBold(ofSize: 14))
-                    )
+                    .font(.init(uiFont: .appleSDGothicNeoBold(ofSize: 14)))
                 TextField("비밀번호를 입력해주세요",
                           text: $userPassword,
                           onEditingChanged: { onEdit in
@@ -133,9 +128,7 @@ struct UserInfoInputView: View {
                         .frame(height: 52)
                         .overlay(alignment: .center) {
                             Text("로그인")
-                                .font(
-                                    .init(uiFont: .appleSDGothicNeoBold(ofSize: 16))
-                                )
+                                .font(.init(uiFont: .appleSDGothicNeoBold(ofSize: 16)))
                                 .foregroundColor(.white)
                         }
                 }
@@ -158,9 +151,7 @@ struct FindUserInfoButtonView: View {
                     // Action for user when pressed
                 } label: {
                     Text("아이디 | 비밀번호 찾기")
-                        .font(
-                            .init(uiFont: .appleSDGothicNeoMedium(ofSize: 13))
-                        )
+                        .font(.init(uiFont: .appleSDGothicNeoMedium(ofSize: 13)))
                         .foregroundColor(.gray)
                 }
                 
@@ -172,16 +163,12 @@ struct FindUserInfoButtonView: View {
                         // Action for user when pressed
                     } label: {
                         Text("회원가입")
-                            .font(
-                                .init(uiFont: .appleSDGothicNeoBold(ofSize: 14))
-                            )
+                            .font(.init(uiFont: .appleSDGothicNeoBold(ofSize: 14)))
                             .foregroundColor(.moziPrimary)
                     }
                     
                 }
-                .font(
-                    .init(uiFont: .appleSDGothicNeoLight(ofSize: 14))
-                )
+                .font(.init(uiFont: .appleSDGothicNeoLight(ofSize: 14)))
             }
             Spacer()
         }
