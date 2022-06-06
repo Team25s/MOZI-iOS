@@ -126,7 +126,7 @@ struct UserInfoInputView: View {
                                     trailing: 0))
                 
                 Button {
-                    print("hi")
+                    // Action for user when pressed
                 } label: {
                     let shape = RoundedRectangle(cornerRadius: 26, style: .continuous)
                     shape.fill().foregroundColor(.moziPrimaryStrong)
@@ -155,7 +155,7 @@ struct FindUserInfoButtonView: View {
             Spacer()
             VStack(spacing: 33) {
                 Button {
-                    print("hi")
+                    // Action for user when pressed
                 } label: {
                     Text("아이디 | 비밀번호 찾기")
                         .font(
@@ -169,7 +169,7 @@ struct FindUserInfoButtonView: View {
                     Image(uiImage: .load(named: .subtitleMoziLogo))
                     Text("회원이 아니신가요?")
                     Button {
-                        print("hi")
+                        // Action for user when pressed
                     } label: {
                         Text("회원가입")
                             .font(
