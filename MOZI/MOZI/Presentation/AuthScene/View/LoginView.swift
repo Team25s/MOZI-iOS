@@ -9,7 +9,24 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.moziPrimary
+            VStack(spacing: 0) {
+                TitleLogoView()
+                    .frame(width: UIScreen.main.bounds.width,
+                           height: UIScreen.main.bounds.height * 0.3)
+            }
+        }
+        .ignoresSafeArea()
+    }
+}
+
+struct TitleLogoView: View {
+    var body: some View {
+        HStack(spacing: 11) {
+            Image(uiImage: .load(named: .titleMoziLogoIcon))
+            Image(uiImage: .load(named: .titleMoziLogo))
+        }
     }
 }
 
