@@ -1,5 +1,3 @@
-<img src="https://user-images.githubusercontent.com/70688424/168721211-a90fef50-cffd-4e74-aea8-48ee38bea62b.png" width="500"/>
-
 <img width="77" src="https://img.shields.io/badge/iOS-15.4+-silver"> <img width="95" src="https://img.shields.io/badge/Xcode-13.3.1-blue">
 
 ## SwiftLint Rule
